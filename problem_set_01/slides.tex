@@ -1,69 +1,101 @@
 \documentclass{beamer}
+
 \usetheme{Madrid}
 
-\title{Designing Markets: Kidney Exchange}
-\author{Chiara Passaro}
-\date{}
+\title{Designing Markets}
+\subtitle{Chapter 4 — Handbook of Market Design}
+\author{Your Name \and Partner Name}
+\institute{ECN 591 — Market Design}
+\date{\today}
 
 \begin{document}
 
+% Slide 1
 \begin{frame}
-\titlepage
+  \titlepage
 \end{frame}
 
-\begin{frame}{The Problem}
+% Slide 2
+\begin{frame}{What Is Market Design?}
 \begin{itemize}
-\item Patients need kidney transplants
-\item Many have willing donors
-\item Donor and patient are often incompatible
+  \item Market design studies how trading rules affect outcomes.
+  \item The goal is to create mechanisms that lead to efficient, fair, and stable outcomes.
+  \item Examples include matching markets, auctions, and centralized allocation systems.
 \end{itemize}
 \end{frame}
 
-\begin{frame}{Why This Is a Market Design Problem}
+% Slide 3
+\begin{frame}{Objectives of Market Design}
 \begin{itemize}
-\item Payments for organs are illegal
-\item Decentralized matching fails
-\item Centralized design improves outcomes
+  \item Efficiency: allocate resources to maximize total surplus.
+  \item Incentives: encourage truthful reporting of preferences.
+  \item Stability: prevent participants from bypassing the mechanism.
+  \item Fairness: ensure acceptable outcomes for participants.
 \end{itemize}
 \end{frame}
 
-\begin{frame}{Kidney Exchange}
+% Slide 4
+\begin{frame}{Diagnosing Market Failures}
 \begin{itemize}
-\item Match incompatible donor–patient pairs
-\item Exchanges occur in cycles
-\item All surgeries happen simultaneously
+  \item Congestion and coordination failures.
+  \item Strategic manipulation and misreporting.
+  \item Lack of thickness (too few participants).
+  \item Timing problems and unraveling.
 \end{itemize}
 \end{frame}
 
-\begin{frame}{Graph Representation}
+% Slide 5
+\begin{frame}{Examples of Market Failures}
 \begin{itemize}
-\item Nodes = patient–donor pairs
-\item Directed edges = compatibility
-\item Cycles represent feasible trades
+  \item School choice systems with unstable matchings.
+  \item Kidney exchange markets without centralized matching.
+  \item Labor markets with early contracting.
 \end{itemize}
 \end{frame}
 
-\begin{frame}{Design Constraints}
+% Slide 6
+\begin{frame}{Design Tools}
 \begin{itemize}
-\item Medical feasibility
-\item Incentive compatibility
-\item Computational limits
+  \item Matching algorithms (e.g., deferred acceptance).
+  \item Auctions and pricing mechanisms.
+  \item Centralization of information and timing.
 \end{itemize}
 \end{frame}
 
-\begin{frame}{Altruistic Donors}
+% Slide 7
+\begin{frame}{Evaluating Market Designs}
 \begin{itemize}
-\item Non-directed donors start chains
-\item Chains increase efficiency
-\item Not all transplants must be simultaneous
+  \item Does the mechanism achieve efficiency?
+  \item Are incentives aligned with truthful behavior?
+  \item Is the outcome stable?
+  \item Are participants willing to use the system?
 \end{itemize}
 \end{frame}
 
-\begin{frame}{Impact}
+% Slide 8
+\begin{frame}{Comparing Alternative Designs}
 \begin{itemize}
-\item Thousands of additional transplants
-\item Implemented worldwide
-\item Major success of market design
+  \item Trade-offs between efficiency and fairness.
+  \item Simplicity versus optimality.
+  \item Robustness to strategic behavior.
+\end{itemize}
+\end{frame}
+
+% Slide 9
+\begin{frame}{Policy Implications}
+\begin{itemize}
+  \item Well-designed markets can correct failures without heavy regulation.
+  \item Small design choices can have large effects.
+  \item Empirical evaluation is crucial.
+\end{itemize}
+\end{frame}
+
+% Slide 10
+\begin{frame}{Conclusion}
+\begin{itemize}
+  \item Market design provides tools to improve real-world allocation problems.
+  \item Proper diagnosis is essential before proposing solutions.
+  \item Chapter 4 highlights principles used across many applications.
 \end{itemize}
 \end{frame}
 
